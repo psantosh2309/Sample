@@ -1,0 +1,98 @@
+<div class="main d-flex justify-content-center">
+    <input type="search" placeholder="Search Airlines & Trails">
+</div>
+<hr>
+<h3>Welcome, Patnana Santosh Kumar!</h3>
+<hr>
+<div class="container">
+      <div class="row">
+                <div class="col-sm">
+                    <div class="circle" (click)="clickTag()">
+                        <div class="icon">
+                          <i class="fa-solid fa-cloud-arrow-up fa-3x"></i>
+                        </div>
+                    </div>
+                    <p>Upload</p>
+                </div>
+                <div class="col-sm">
+                    <div class="circle" (click)="clickTag1()">
+                      <div class="icon">
+                        <i class="fa-solid fa-globe fa-3x"></i>
+                      </div>
+                    </div>
+                    <p>Live Monetoring</p>
+                </div>
+                <div class="col-sm">
+                    <div class="circle" (click)="clickTag1()">
+                    <div class="icon">
+                      <i class="fa-solid fa-screwdriver-wrench fa-3x"></i>
+                    </div>
+                    </div>
+                    <p>Repair Management</p>
+                </div>
+                <div class="col-sm">
+                    <div class="circle" (click)="clickTag1()">
+                    <div class="icon">
+                      <i class="fa-solid fa-user fa-3x"></i>
+                    </div>
+                    </div>
+                    <p>Profile</p>
+                </div>
+       </div>
+</div>   
+<br>
+<br>
+<br>
+<hr>
+<div class="container">
+  <div *ngIf="condition">
+      <div class="row">
+       <div class="col" routerLink="/aero">Aeroflat</div>
+        <div class="col">Air Asia</div>
+        <div class="col">Air Canada</div>
+        <div class="col">Air</div>
+      </div>
+      <div class="row">
+        <div class="col">AFL</div>
+        <div class="col">AXM</div>
+        <div class="col">ACA</div>
+        <div class="col">AFR</div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col">Air China</div>
+        <div class="col">Air France</div>
+        <div class="col">Air India</div>
+        <div class="col">Air Indonesia</div>
+      </div>
+      <div class="row">
+        <div class="col">ACI</div>
+        <div class="col">AFM</div>
+        <div class="col">IND</div>
+        <div class="col">AIN</div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col">Air Namibia</div>
+        <div class="col">Air Azerbaijan</div>
+        <div class="col">Air Singapore</div>
+        <div class="col">Air Brazil</div>
+      </div>
+      <div class="row">
+        <div class="col">ANM</div>
+        <div class="col">AZN</div>
+        <div class="col">ASP</div>
+        <div class="col">ABZ</div>
+      </div>
+      <br>
+      
+    </div>
+    <ng-template>
+      <div class="row">
+        <div class="col">Air China</div>
+        <div class="col">Air France</div>
+        <div class="col">Air India</div>
+        <div class="col">Air Indonesia</div>
+      </div>
+    </ng-template>
+</div>

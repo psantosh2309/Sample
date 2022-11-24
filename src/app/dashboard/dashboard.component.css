@@ -1,0 +1,25 @@
+.main{
+   background-color: rgb(233, 74, 69);
+}
+input{
+    border-radius:10px;
+    border: 1px solid black;
+}
+.circle{
+    background-color:rgb(66, 151, 177);
+    border-radius: 100%;
+    width:100px;
+    height: 100px;
+}
+.icon{
+    color:white; 
+    padding: 25px;  
+}
+
+
+
+
+
+
+
+
